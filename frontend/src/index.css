@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "DM Sans", system-ui, sans-serif;
+  background: radial-gradient(1200px 800px at 10% -10%, #1a2744 0%, transparent 55%),
+    radial-gradient(900px 600px at 100% 0%, #132a28 0%, transparent 50%), #0c0f14;
+  color: #e8eaef;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
